@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enter Job Data</title>
+    
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Enter Job Data</h1>
+    <form id="createJobForm">
+        <label class="field-label" for="title">Job Title*</label>
+        <input type="text" id="title" required>
+
+        <label class="field-label" for="type">Job Type*</label>
+        <select id="type" required>
+            <option value="">Select Job Type</option>
+            <option value="full-time">Full-Time</option>
+            <option value="part-time">Part-Time</option>
+            <option value="contract">Contract</option>
+            <option value="internship">Internship</option>
+        </select>
+
+        <label class="field-label" for="department">Department*</label>
+        <select id="department" required>
+            <option value="">Select Department</option>
+            <option value="engineering">Engineering</option>
+            <option value="marketing">Marketing</option>
+            <option value="hr">Human Resources</option>
+            <option value="sales">Sales</option>
+        </select>
+
+        <label class="field-label" for="country">Country*</label>
+        <select id="country" required>
+            <option value="">Select Country</option>
+            <option value="us">United States</option>
+            <option value="uk">United Kingdom</option>
+            <option value="in">India</option>
+
+        </select>
+
+
+        <label class="field-label" for="description">Job Description*</label>
+        <textarea id="description" required></textarea>
+
+        <label class="field-label" for="openingDate">Opening Date*</label>
+        <input type="date" id="openingDate" required>
+
+        <button type="submit">Submit</button>
+
+
+    </form>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
