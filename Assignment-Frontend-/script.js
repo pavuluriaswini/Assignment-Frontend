@@ -13,7 +13,7 @@ document.getElementById('createJobForm').addEventListener('submit', function(eve
         }
     });
 
-    // Validate date
+    
     const openingDateField = document.getElementById('openingDate');
     const selectedDate = new Date(openingDateField.value);
     const currentDate = new Date();
